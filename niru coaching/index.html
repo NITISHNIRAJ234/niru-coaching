@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niru-coaching</title>
+
+    <!-- FONTAWSOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-------------- sweiper js CDN --------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <style>
+        body{ background-image: url(./images/bg-texture.png); }
+    </style>
+
+
+<!---------------- FAVICON ------------------->
+<link rel="apple-touch-icon" sizes="180x180" href=".favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+<body>
+   
+   
+   
+   
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>Niru coaching</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="courses.html">courses</a></li>
+                <li><a href="contact.html">contact us</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></i></button>
+        </div>
+    </nav>
+
+
+    
+    <!--------------------------------- END OF NAVBAR -------------------------------->
+
+
+    
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>grow your skill to advance your career path</h1>
+                <p>Unlock your potential, embrace the future. Empowering minds with cutting-edge knowledge and practical skills for a tech-driven world. Experience excellence in technical education with our dynamic online platform.</p>
+                <a href="courses.html" class="btn btn-primery">Get started</a>
+
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------------------------------- END OF HEADER -------------------------------->
+    <section class="categories">
+        <div class="container catogeries__container">
+            <div class="categories__left">
+                <h1>Catogeries</h1>
+                <p>Education isn’t an exception to the ever-growing use of the internet. Gone are those days when students had to spend hours in the library searching for answers, seeking references, verifying facts, etc. and then and come up with their observations and inferences.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="catogeries__right">
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-solid fa-lock"></i></span>
+                    <h5>cyber security</h5>
+                    <p>every aspect of protecting an organization and assets against cyber threats</p>
+                </article>
+
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                    <h5>Graphic design</h5>
+                    <p>the practice of composing and arranging the visual elements of a project.</p>
+                </article>
+
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i></span>
+                    <h5>finance</h5>
+                    <p>Finance is about management, creation, and study of money and investments.</p>
+                </article>
+
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-solid fa-bullhorn"></i></span>
+                    <h5>marketing</h5>
+                    <p>a company's activity which promote to buying or selling of a product or service</p>
+                </article>
+
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-solid fa-code"></i></i></span>
+                    <h5>Programming</h5>
+                    <p>the process of transforming instructions into the computer's language</p>
+                </article>
+
+                <article class="catogory">
+                    <span class="catogory__icon"><i class="fa-solid fa-globe"></i></span>
+                    <h5>web development</h5>
+                    <p>the building and maintenance of websites</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------- END OF CATOGERY SECTION -------------------------------->
+    <section class="courses">
+        <h2>Our Popular courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Full stack web development</h4>
+                    <p>An immersive Full-Stack Developer course will help you build a solid foundation to impress the top-tech professionals and recruiters to land a good job in a product-based company.</p>
+                    <a href="courses.html" class="btn btn-primery">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Data Science</h4>
+                    <p>One of the best courses to pursue after graduation is a master’s degree in data science. Data Science has deservedly earned the title of the best job of the twenty-first century.</p>
+                    <a href="courses.html" class="btn btn-primery">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Cloud Computing</h4>
+                    <p>Cloud Computing is a Computer Science arm that deals with the storage, management, and processing of data on internet server networks. It is a global solution for retrieving and storing data. Cloud computing is rapidly becoming an important part of IT-based enterprises.</p>
+                    <a href="courses.html" class="btn btn-primery">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--------------------------------- END OF POPULAR COURSES -------------------------------->
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What courses do you offer?</h4>
+                    <p>We offer a wide range of courses covering various technical disciplines such as programming, web development, data science, artificial intelligence, cybersecurity, and more. Our course catalog is constantly expanding to meet the evolving demands of the industry.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How can I enroll in a course?</h4>
+                    <p>Enrolling in a course is easy! Simply visit our website, browse through the available courses, and select the one you're interested in. Click on the "Enroll" button, and you'll be guided through the enrollment process, which typically involves creating an account and making the necessary payment.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></i></div>
+                <div class="question__answer">
+                    <h4>Are the courses self-paced or instructor-led?</h4>
+                    <p>We offer both self-paced and instructor-led courses to cater to different learning preferences. Self-paced courses allow you to study at your own convenience and progress through the materials at your preferred pace. Instructor-led courses provide structured learning with designated class timings and the opportunity to interact with instructors and fellow learners.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do you provide certifications upon course completion?</h4>
+                    <p>Yes, upon successful completion of a course, we provide certifications that validate your skills and knowledge in the respective field. Our certifications are recognized and respected in the industry, helping you enhance your professional profile and career prospects.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Can I access the course materials offline?</h4>
+                    <p>Our courses are primarily delivered through our online platform, allowing you to access the course materials anytime and anywhere with an internet connection. However, in some cases, we offer downloadable resources that you can access offline for specific modules or lessons.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Is there any prerequisite required for the courses?</h4>
+                    <p>The prerequisite knowledge varies depending on the course. Some courses may have specific prerequisites, such as familiarity with a programming language or basic understanding of certain concepts. However, we also offer beginner-level courses that assume no prior knowledge, making them suitable for individuals with little to no technical background.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What kind of support is available during the course?</h4>
+                    <p>We provide comprehensive support throughout your learning journey. Our courses feature discussion forums, where you can interact with instructors and fellow learners to ask questions, seek clarification, and engage in meaningful discussions. Additionally, our support team is available via email or chat to address any technical or administrative queries you may have.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Are there any live interactive sessions or webinars?</h4>
+                    <p>Yes, we occasionally organize live interactive sessions and webinars conducted by industry experts. These sessions offer opportunities for real-time engagement, Q&A sessions, and in-depth discussions on specific topics related to the course content or industry trends.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How long do I have access to the course materials?</h4>
+                    <p>Upon enrollment, you typically gain access to the course materials for an extended period. The specific duration of access varies depending on the course, ranging from a few months to a year or more. This allows you ample time to study, review the materials, and complete any assignments or assessments at your own pace.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Is financial aid or scholarships available?</h4>
+                    <p>We understand the importance of making education accessible to all. While the availability of financial aid or scholarships may vary, we strive to provide opportunities for eligible individuals. Please check our website or contact our support team for information regarding any available financial aid options or scholarship programs.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script>
+        const faqs = document.querySelectorAll('.faq');
+
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                faq.classList.toggle('open');
+
+                //change icon from plus to the minus
+                const icon = faq.querySelector('.faq_icon i ');
+                if (icon.className === "fa-solid fa-plus") {
+                    icon.className = "fa-solid fa-minus";
+                } else {
+                    icon.className = "fa-solid fa-plus";
+                }
+            })
+        })
+    </script>
+
+    <!--------------------------------- END OF FAQs -------------------------------->
+
+    <!------------- starting of the student testimonial section ------------------------>
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonial</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Pankaj</h5>
+                    <small>Web Development Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>"I was amazed by the depth of knowledge and practical skills I gained from the web development course. The instructors were exceptional, and the interactive learning environment helped me master the latest industry techniques. Highly recommended!"</p>
+                </div>
+            </article>
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Ranjana</h5>
+                    <small>Data Science Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>"Enrolling in the data science program was a game-changer for my career. The comprehensive curriculum, hands-on projects, and mentorship opportunities helped me build a solid foundation in data analysis and machine learning. Thanks to this program, I landed my dream job!"</p>
+                </div>
+            </article>
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Himanshu</h5>
+                    <small>Programming Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>"I had zero coding experience before joining the programming course. The course structure and step-by-step guidance helped me grasp coding concepts quickly. The support from instructors and the online community made my learning journey enjoyable and rewarding. Now, I'm confident in my programming abilities!"</p>
+                </div>
+            </article>
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Shivam</h5>
+                    <small>Cybersecurity Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>"The cybersecurity course surpassed my expectations. The content was up-to-date and covered various cybersecurity domains. The practical labs and simulated scenarios gave me a real-world perspective on tackling security threats. This course equipped me with the skills to protect organizations from cyber risks."</p>
+                </div>
+            </article>
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Pritam</h5>
+                    <small>Artificial Intelligence Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>"I couldn't be happier with my experience in the artificial intelligence course. The curriculum was well-structured, and the instructors were knowledgeable and approachable. The course not only taught me the theory but also provided hands-on projects that allowed me to apply AI techniques. It was truly transformative!"</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+
+    <!--------- NOW IT'S TIME FOR THE FOOTER SECTION  --------->
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>niru-coaching</h4>
+                </a>
+                <p>"Unlock Your Potential with Cutting-Edge Knowledge: Empowering the Tech Innovators of Tomorrow!"</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Parmalinks</h4>
+                <ul class="Parmalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#"></a>Refund policy</li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact us</h4>
+                <div>
+                    <p>+91 6206825031</p>
+                    <p>nitishniraj06@gmail.com</p>
+                </div>
+            
+                <ul class="footer__socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100011312194742"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/niru.nny/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/niru-nny/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; made by <i class="fa-solid fa-heart fa-beat-fade" style="color: #fa2500;"></i>
+                NIRAJ</small>
+        </div>
+    </footer>
+
+    <!--------- FOOTER SECTION ENDS --------->
+
+    <script src="main.js"></script>
+
+
+</body>
+ 
+</html>
